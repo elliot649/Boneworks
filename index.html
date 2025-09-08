@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Educational Learning 67</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+      color: #333;
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .left-label, .right-label {
+      font-size: 40px;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .left-label {
+      left: -70px; /* push 67 left of the frame */
+    }
+
+    .right-label {
+      right: -70px; /* push Leaning right of the frame */
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+    }
+
+    .game-container {
+      border: 2px solid #ccc;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left-label">67</div>
+    <div class="game-container">
+      <iframe
+        src="https://scratch.mit.edu/projects/800384781/embed"
+        allowtransparency="true"
+        width="1100"
+        height="900"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="right-label">Leaning</div>
+  </div>
+</body>
+</html>
